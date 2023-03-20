@@ -11,6 +11,7 @@ end
 
 if e == false then
     game.Players.LocalPlayer:Kick("User Is Not Whitelisted! DM Rick#2615 To Get Whitelisted!")
+    exit()
 end 
 
 
