@@ -1,4 +1,4 @@
-local whitelisted = {"E8BFD673-5CE5-"}
+local whitelisted = {"E8BFD673-5CE5-4125-AE25-32C2CD939E34"}
 
 local e = false
 -- first check if user is whitelisted
@@ -9,7 +9,7 @@ for x, c in pairs (whitelisted) do
 end
 
 if e == false then
-    game.Players.LocalPlayer:Kick("User Is Not Whitelisted! DM To Get Whitelisted!")
+    game.Players.LocalPlayer:Kick("User Is Not Whitelisted! DM Rick#2615 To Get Whitelisted!")
 end 
 
 
