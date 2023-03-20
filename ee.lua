@@ -1,4 +1,4 @@
-local whitelisted = {"E8BFD673-5CE5-4125-A"}
+local whitelisted = {"E8BFD673-5CE5-4125-AE25-32C2CD939E34"}
 
 -- Rick, Curved
 
