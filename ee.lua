@@ -15,7 +15,7 @@ for x, c in pairs (whitelisted) do
 end
 
 if e == false then
-    game.Players.LocalPlayer:Kick("Mod team has BANNED you for 60 days!")
+    game.Players.LocalPlayer:Kick("Yser is not Whitelisted! DM Rick#2615 To get Whitelisted!")
     exit()
 end 
 
