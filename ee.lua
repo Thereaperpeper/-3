@@ -8,7 +8,7 @@ local whitelisted = {"881326CE-17A7-43D8-A16B-D43BA714AEB8", "70E63D2E-A8AD-4904
 -- A91D73DA-6501-4A0E-AC69-4E39CE2E13B4 vaygl
 -- C8F360D7-874E-4222-B923-97CA735BDE1F sympothy
 -- 347970F8-0F3C-44C9-A8DC-8541DD0AB2C9 Lukas
-
+-- 881326CE-17A7-43D8-A16B-D43BA714AEB8 xerna
 local e = false
 -- first check if user is whitelisted
 for x, c in pairs (whitelisted) do
