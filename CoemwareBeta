@@ -11,8 +11,8 @@ game.StarterGui:SetCore(
    "SendNotification",
    {
        Title = "!WARNING!",
-       Text = "Get The New Version In The Discord!",
+       Text = "Get The New Version In The Discord! https://discord.gg/uyjeaTvpEj",
        Icon = "rbxassetid://6023426923",
-       Duration = 100
+       Duration = 150
    }
 )
