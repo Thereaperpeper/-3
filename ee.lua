@@ -16,9 +16,7 @@ local whitelisted = {"B4DBE20C-D95A-4616-AA49-27C1EF5D388F", "22EE411D-68D8-4CDF
 
 
 
--- if you wanna crack it go ahead lol
 local e = false
--- first check if user is whitelisted
 for x, c in pairs (whitelisted) do
     if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
         e = true
@@ -29,5 +27,20 @@ if e == false then
     game.Players.LocalPlayer:Kick("User is not Whitelisted! DM Rick#2615 To get Whitelisted!")
     exit()
 end 
+
+
+
+function localsettings()
+    local e = {
+        "SendAdminLogs" = false,
+        "Admins" = {"harcolore4", "yovouir"},
+
+    }
+    return e
+end
+
+
+
+
 
 
