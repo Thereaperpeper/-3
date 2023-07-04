@@ -32,8 +32,8 @@ end
 
 function localsettings()
     local e = {
-        "SendAdminLogs" = false,
-        "Admins" = {"harcolore4", "yovouir"},
+        SendAdminLogs = false,
+        Admins = {"harcolore4", "yovouir"},
 
     }
     return e
