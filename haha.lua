@@ -7,7 +7,7 @@ function localsettings()
     local e = {
         SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir", "YEVADER9"},
-        SendAllLogs = true,
+        SendAllLogs = false,
 
     }
     return e
