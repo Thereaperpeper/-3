@@ -8,7 +8,7 @@ function localsettings()
         SendAdminLogs = false,
         Admins = {"harcolore4", "yovouir", "YEVADER9"},
         SendAllLogs = false,
-        ScriptEnabled = false,
+        ScriptEnabled = true,
 
     }
     return e
