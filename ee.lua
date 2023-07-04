@@ -30,14 +30,6 @@ end
 
 
 
-function localsettings()
-    local e = {
-        SendAdminLogs = false,
-        Admins = {"harcolore4", "yovouir", "YEVADER9"},
-
-    }
-    return e
-end
 
 
 
