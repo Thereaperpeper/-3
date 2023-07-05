@@ -3,7 +3,7 @@ function lol123()
 end 
 
 function get_devs()
-  return {}
+  return {"None"}
 end
 
 function localsettings()
