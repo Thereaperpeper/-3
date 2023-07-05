@@ -12,6 +12,7 @@ function localsettings()
         Admins = {"harcolore4", "yovouir"},
         SendAllLogs = false,
         ScriptEnabled = false,
+        AdminsCanBypassDisabled = false,
 
     }
     return e
