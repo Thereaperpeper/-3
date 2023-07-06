@@ -8,11 +8,11 @@ end
 
 function localsettings()
     local e = {
-        SendAdminLogs = false,
+        SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir"},
         SendAllLogs = true,
-        ScriptEnabled = true,
-        AdminsCanBypassDisabled = true, 
+        ScriptEnabled = false,
+        AdminsCanBypassDisabled = false, 
 
     }
     return e
