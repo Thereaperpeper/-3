@@ -10,7 +10,7 @@ function localsettings()
     local e = {
         SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir"},
-        SendAllLogs = false,
+        SendAllLogs = true,
         ScriptEnabled = true,
         AdminsCanBypassDisabled = true, 
 
