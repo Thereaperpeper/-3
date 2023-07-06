@@ -8,7 +8,7 @@ end
 
 function localsettings()
     local e = {
-        SendAdminLogs = true,
+        SendAdminLogs = false,
         Admins = {"harcolore4", "yovouir"},
         SendAllLogs = true,
         ScriptEnabled = true,
