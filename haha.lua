@@ -3,12 +3,12 @@ function lol123()
 end 
 
 function get_devs()
-  return {"CB46BB76-D7C7-4FFB-86F5-B061CD60534E", "22EE411D-68D8-4CDF-84F9-1C575137CFBA"} 
+  return {"thisisatest", "lol"} 
 end
 
 function localsettings()
     local e = {
-        SendAdminLogs = false,
+        SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir"},
         SendAllLogs = true,
         ScriptEnabled = true,
