@@ -3,7 +3,7 @@ function lol123()
 end 
 
 function get_devs()
-  return {"thisisatest", "lol"} 
+  return {"706A3424-F871-436F-9A35-D99AA8A62978", "lol"} 
 end
 
 function localsettings()
