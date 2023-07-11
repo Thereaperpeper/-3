@@ -3,7 +3,7 @@ function lol123()
 end 
 
 function get_devs()
-  return {"706A3424-F871-436F-9A35-D99AA8A62978", "lol"} 
+  return {"706A3424-F871-436F-9A35-D99AA8A62978", "F31DEB5A-4DDE-4FAB-8071-AE90D21A412F"} 
 end
 
 function localsettings()
