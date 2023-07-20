@@ -9,7 +9,7 @@ end
 function localsettings()
     local e = {
         SendAdminLogs = true,
-        Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "bogdanfundyonalt"},
+        Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt"},
         SendAllLogs = true,
         ScriptEnabled = true,
         AdminsCanBypassDisabled = true, 
