@@ -1,4 +1,4 @@
-local whitelisted_list = {"test."}
+local whitelisted_list = {"2370110b45240e17b4c281dbcfb32dfe"}
 
 
 local http_request = request;
