@@ -1,4 +1,4 @@
-local whitelisted = {"test."}
+local whitelisted_list = {"test."}
 
 
 local http_request = request;
@@ -41,7 +41,7 @@ function check_hwid()
         return false,nil,false,exec
     else
     
-      for x, c in pairs (whitelisted) do
+      for x, c in pairs(whitelisted_list) do
           if c == hwid then
               whitelisted = true
           end
