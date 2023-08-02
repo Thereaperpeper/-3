@@ -35,7 +35,24 @@ function check_hwid()
             
         end)
     end
+    
+    if not cool then
+        pcall(function()
+            local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
+            local decoded = game:GetService('HttpService'):JSONDecode(body)
+            hwid = decoded.headers["Valyse-Fingerprint"]
+            
+            
+            if hwid then 
+                exec = "Valyse"
+                cool = true
+            end
+            
+        end)
+    end
 
+
+    
     -- // check if there even is a hwid lol
     if not hwid then 
         return false,nil,false,exec
