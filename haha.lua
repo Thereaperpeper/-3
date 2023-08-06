@@ -8,7 +8,7 @@ end
 
 
 function get_blacklisted()
-  return {"2370110b45240e17b4c281dbcfb32dfe"}
+  return {"lol"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
 end
 
 function localsettings()
