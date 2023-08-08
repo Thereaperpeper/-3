@@ -13,6 +13,8 @@ end
 
 function localsettings()
     local e = {
+        DisableWhitelist = false,
+    
         SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt"},
         SendAllLogs = true,
