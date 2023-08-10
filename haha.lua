@@ -13,7 +13,7 @@ end
 
 function localsettings()
     local e = {
-        DisableWhitelist = false, -- basically free for all mode.
+        DisableWhitelist = false, -- basically free for all mode. 
     
         SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt", "FreeAccount723585"},
@@ -23,9 +23,9 @@ function localsettings()
 
         Logs = {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"}, -- default: {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
 
-        UseLegacySystem = false, 
+        UseLegacySystem = false,  -- if this is true it'll use the old client id system, if false it'll use hwio
 
-        DisableWhitelistRetrieval = false, -- this is if whitelisting is disabled, and if it's not using legacy system.
+        DisableWhitelistRetrieval = false, -- this is if whitelisting is disabled, and if it's not using legacy system. (this will stop retrieving hwid if httpbin being annoying.)
         
 
     }
