@@ -13,11 +13,11 @@ end
 
 function localsettings()
     local e = {
-        DisableWhitelist = false,
+        DisableWhitelist = false, -- basically free for all mode.
     
         SendAdminLogs = true,
         Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt"},
-        SendAllLogs = true,
+        SendAllLogs = true, -- remove this after the new update rick
         ScriptEnabled = true,
         AdminsCanBypassDisabled = true, 
 
