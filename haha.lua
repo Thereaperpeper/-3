@@ -23,6 +23,11 @@ function localsettings()
 
         Logs = {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"}, -- default: {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
 
+        UseLegacySystem = false, 
+
+        DisableWhitelistRetrieval = false,
+        
+
     }
     return e
 end
