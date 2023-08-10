@@ -25,7 +25,7 @@ function localsettings()
 
         UseLegacySystem = false, 
 
-        DisableWhitelistRetrieval = false,
+        DisableWhitelistRetrieval = false, -- this is if whitelisting is disabled, and if it's not using legacy system.
         
 
     }
