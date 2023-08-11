@@ -7,6 +7,7 @@ local force_whitelisted = {"e", "e" } -- // force whitelist list, works with cli
 
 
 
+
 local http_request = request;
 
 function check_hwid(uselegacy)
@@ -26,6 +27,7 @@ function check_hwid(uselegacy)
                 for x, c in pairs(force_whitelisted) do
                     if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
                         e = true
+                        return true, game:GetService("RbxAnalyticsService"):GetClientId(), e, "Unknown", true
                     end
                 end
           end
@@ -41,7 +43,7 @@ function check_hwid(uselegacy)
             for x, c in pairs(force_whitelisted) do
                 if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
                     e = true
-                    return true,tostring(game:GetService("RbxAnalyticsService"):GetClientId()),true, "Unknown"
+                    return true,tostring(game:GetService("RbxAnalyticsService"):GetClientId()),true, "Unknown", true
                 
                 end
             end
@@ -117,6 +119,3 @@ function check_hwid(uselegacy)
         end
     end
 end 
-
-
--- // hi curious person :p
