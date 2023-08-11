@@ -34,7 +34,8 @@ function localsettings()
 
         DisableWhitelistRetrieval = false, -- this is if whitelisting is disabled, and if it's not using legacy system. (this will stop retrieving hwid if httpbin being annoying.)
         
-
+        DangerousSetting = false,
+    
     }
     return e
 end
