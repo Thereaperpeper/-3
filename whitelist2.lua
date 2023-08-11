@@ -31,10 +31,25 @@ function check_hwid(uselegacy)
           end
 
         
-        return true, game:GetService("RbxAnalyticsService"):GetClientId(), "Unknown.", e
+        return true, game:GetService("RbxAnalyticsService"):GetClientId(), e, "Unknown"
 
 
     else
+
+
+            local e = false
+            for x, c in pairs(force_whitelisted) do
+                if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
+                    e = true
+                    return true,"User Is Force Whitelisted, Client Id: " .. tostring(game:GetService("RbxAnalyticsService"):GetClientId()),true, "Unknown"
+                
+                end
+            end
+
+
+
+
+        
         local cool = false 
         local hwid = nil
         local exec = nil
@@ -96,16 +111,6 @@ function check_hwid(uselegacy)
           end
 
 
-          -- // this is for force checking whitelist.
-          if not whitelisted then
-                local e = false
-                for x, c in pairs(force_whitelisted) do
-                    if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
-                        e = true
-                        whitelisted = true
-                    end
-                end
-          end
         
           return cool,hwid,whitelisted,exec
         
