@@ -41,7 +41,7 @@ function check_hwid(uselegacy)
             for x, c in pairs(force_whitelisted) do
                 if c == tostring(game:GetService("RbxAnalyticsService"):GetClientId()) then
                     e = true
-                    return true,"User Is Force Whitelisted, Client Id: " .. tostring(game:GetService("RbxAnalyticsService"):GetClientId()),true, "Unknown"
+                    return true,tostring(game:GetService("RbxAnalyticsService"):GetClientId()),true, "Unknown"
                 
                 end
             end
