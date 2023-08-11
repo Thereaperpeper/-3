@@ -11,6 +11,13 @@ function get_blacklisted()
   return {"lol"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
 end
 
+
+function get_blacklisted_client_ids()
+  return {"lol"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
+end
+
+
+
 function localsettings()
     local e = {
         DisableWhitelist = false, -- basically free for all mode. 
