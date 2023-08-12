@@ -28,7 +28,7 @@ function localsettings()
         ScriptEnabled = true,
         AdminsCanBypassDisabled = true, -- if admins can bypass a disabled script.
 
-        Logs = {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"}, -- default: {"Verify",  "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
+        Logs = {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"}, -- default: {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
 
         UseLegacySystem = false,  -- if this is true it'll use the old client id system, if false it'll use hwio
 
