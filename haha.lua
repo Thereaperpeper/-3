@@ -23,7 +23,7 @@ function localsettings()
         DisableWhitelist = true, -- basically free for all mode. 
     
         SendAdminLogs = false,
-        Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt", "FreeAccount723585", "YEVADER7"},
+        Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt", "FreeAccount723585", "YEVADER7", "imsussjsbsjs"},
         SendAllLogs = true, -- remove this after the new update rick
         ScriptEnabled = true,
         AdminsCanBypassDisabled = true, -- if admins can bypass a disabled script.
