@@ -3475,6 +3475,9 @@ function library:CreateWindow(name, size, hidebutton)
             configSystem.Load = configSystem.sector:AddButton("Load", function()
                 local Success = pcall(readfile, configSystem.configFolder .. "/" .. Config:Get() .. ".txt")
                 if Success then
+                    getgenv().changevariablesfromLibrary["LoadConfig"] = true
+
+                    task.wait(.1)
                     pcall(function() 
                         local ReadConfig = httpservice:JSONDecode(readfile(configSystem.configFolder .. "/" .. Config:Get() .. ".txt"))
                         local NewConfig = {}
