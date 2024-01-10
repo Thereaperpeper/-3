@@ -3401,6 +3401,7 @@ function library:CreateWindow(name, size, hidebutton)
         end
 
         function tab:CreateConfigSystem(side)
+	    return nil -- IMPORANT CHANGE THIS THIS IS FOR MOBILE SUPPORT IT DIDNT WORK.
             local configSystem = { }
 
             configSystem.configFolder = window.name .. "/" .. tostring(game.PlaceId)
