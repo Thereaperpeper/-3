@@ -8,12 +8,12 @@ end
 
 
 function get_blacklisted()
-  return {"30d4b84d-2438-4df9-9983-e64263a7630a"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
+  return {"lol"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
 end
 
 
 function get_blacklisted_client_ids()
-  return {"lol"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
+  return {"30d4b84d-2438-4df9-9983-e64263a7630a"} -- 2370110b45240e17b4c281dbcfb32dfe (rick)
 end
 
 
