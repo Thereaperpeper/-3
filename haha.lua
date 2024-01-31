@@ -24,11 +24,12 @@ function localsettings()
     
         SendAdminLogs = false,
         Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt", "FreeAccount723585", "YEVADER7", "imsussjsbsjs"},
-        SendAllLogs = true, -- remove this after the new update rick
-        ScriptEnabled = true,
+        --SendAllLogs = true, -- remove this after the new update rick
+    
+        ScriptEnabled = false,
         AdminsCanBypassDisabled = true, -- if admins can bypass a disabled script.
 
-        Logs = {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"}, -- default: {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
+        Logs = {}, -- default: {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
 
         UseLegacySystem = false,  -- if this is true it'll use the old client id system, if false it'll use hwio
 
