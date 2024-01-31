@@ -3401,7 +3401,6 @@ function library:CreateWindow(name, size, hidebutton)
         end
 
         function tab:CreateConfigSystem(side)
-	    return nil -- IMPORANT CHANGE THIS THIS IS FOR MOBILE SUPPORT IT DIDNT WORK.
             local configSystem = { }
 
             configSystem.configFolder = window.name .. "/" .. tostring(game.PlaceId)
@@ -3476,9 +3475,8 @@ function library:CreateWindow(name, size, hidebutton)
             configSystem.Load = configSystem.sector:AddButton("Load", function()
                 local Success = pcall(readfile, configSystem.configFolder .. "/" .. Config:Get() .. ".txt")
                 if Success then
-                    getgenv().changevariablesfromLibrary["LoadConfig"] = true
-
-                    task.wait(.1)
+                    getgenv().changevariablesfromLibrary["LoadConfig"] = true -- //}
+                    task.wait(.1) -- //}
                     pcall(function() 
                         local ReadConfig = httpservice:JSONDecode(readfile(configSystem.configFolder .. "/" .. Config:Get() .. ".txt"))
                         local NewConfig = {}
