@@ -26,7 +26,7 @@ function localsettings()
         Admins = {"harcolore4", "yovouir", "FurryBoy_YT2000", "BogdanFundyOnAlt", "FreeAccount723585", "YEVADER7", "imsussjsbsjs"},
         --SendAllLogs = true, -- remove this after the new update rick
     
-        ScriptEnabled = true,
+        ScriptEnabled = false,
         AdminsCanBypassDisabled = true, -- if admins can bypass a disabled script.
 
         Logs = {}, -- default: {"Verify", "Left", "Executed", "Fail", "Blacklisted", "Whitelist"} (all)
