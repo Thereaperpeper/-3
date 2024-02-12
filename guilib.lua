@@ -3401,6 +3401,8 @@ function library:CreateWindow(name, size, hidebutton)
         end
 
         function tab:CreateConfigSystem(side)
+	    -- IMPORTANT: CHANGED THIS
+	    return
             local configSystem = { }
 
             configSystem.configFolder = window.name .. "/" .. tostring(game.PlaceId)
