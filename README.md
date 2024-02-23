@@ -5,5 +5,5 @@
 
 
 
-Made by Relip12#0105, use at your own risk!
+Made by relip12 (on discord), use at your own risk!
 
