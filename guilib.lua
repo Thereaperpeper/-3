@@ -20,8 +20,6 @@ local player = players.LocalPlayer
 local mouse = player:GetMouse()
 local camera = game.Workspace.CurrentCamera
 
-print("yo kexrna wsp")
-
 library.theme = {
     fontsize = 15,
     titlesize = 18,
@@ -3403,10 +3401,6 @@ function library:CreateWindow(name, size, hidebutton)
         end
 
         function tab:CreateConfigSystem(side)
-	    -- IMPORTANT: CHANGED THIS
-	    print("hey kexrna it's me rick report this to me please")
-	    return nil
-	    print("uh oh if you see this there's a really big issue yk")
             local configSystem = { }
 
             configSystem.configFolder = window.name .. "/" .. tostring(game.PlaceId)
