@@ -1,6 +1,5 @@
 -- // PS: I am not the owner of this gui library, i just repasted it into my own github so i can modify it at any given time without having to reobfuscate the script. :P
 
-print("HI KEXRNA")
 local library = { 
 	flags = { }, 
 	items = { } 
